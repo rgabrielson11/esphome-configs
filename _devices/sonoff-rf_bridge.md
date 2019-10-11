@@ -89,3 +89,4 @@ status_led:
   pin:
     number: GPIO13
     inverted: yes
+```
