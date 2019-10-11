@@ -35,6 +35,8 @@ ota:
   - platform: status
     name: "RF Bridge Status"
     
+# use esphome log viewer to get binary transmission for sensor state.  Below are examples when using either single state or dual state sensors.
+
 # use this for single state sensors (single trigger)     
   - platform: remote_receiver
     name: "Sensor1"
@@ -42,7 +44,7 @@ ota:
       code: '100110011100011010101001'
       protocol: 1
 
-# use esphome log viewer to get binary transmission for sensor state.  Below are examples when using either single state or dual state sensors.
+
 
 # use this for dual state sensors (open/closed trigger) 
   - platform: remote_receiver
