@@ -99,5 +99,4 @@ light:
   - platform: monochromatic
     name: "Blue LED"
     output: blue_led
-
-'''
+```
