@@ -1,7 +1,7 @@
 ---
 title: Sonoff iFan02
 type: misc
-standard: uk, us, eu
+standard: global
 ---
 
 1. TOC
