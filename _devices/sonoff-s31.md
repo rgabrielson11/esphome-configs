@@ -59,3 +59,12 @@ switch:
 status_led:
   pin: GPIO13
 ```
+
+sensor:
+  - platform: cse7766
+    current:
+      name: "Sonoff S31 Current"
+    voltage:
+      name: "Sonoff S31 Voltage"
+    power:
+      name: "Sonoff S31 Power"
