@@ -1,7 +1,7 @@
 ---
 title: Sonoff RF Bridge
 type: Misc
-standard: uk, us, eu
+standard: global
 ---
 1. TOC
 {:toc}
