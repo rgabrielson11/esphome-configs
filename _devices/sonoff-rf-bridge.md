@@ -32,7 +32,9 @@ api:
 ota:
 
 # Device Specific Config
-  - platform: status
+
+binary_sensor:
+- platform: status
     name: "RF Bridge Status"
     
 # use esphome log viewer to get binary transmission for sensor state.  Below are examples when using either single state or dual state sensors.
