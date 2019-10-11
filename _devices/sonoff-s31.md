@@ -64,5 +64,4 @@ switch:
 
 status_led:
   pin: GPIO13
-
-***
+```
